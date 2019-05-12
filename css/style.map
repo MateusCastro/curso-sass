@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/_colors.scss",
+		"../scss/_buttons.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\r\n@import \"buttons\";\r\n\r\n$preto: #999;\r\n\r\n.teste{ \r\n    background: $preto;\r\n    height: 200px;\r\n    width: 200px;\r\n    a {\r\n        color: pink\r\n    }\r\n    &:hover {\r\n        background: red;\r\n    }\r\n}\r\n\r\nul {\r\n    text-align: center;\r\n    li {\r\n        display: inline-block;\r\n        list-style: none;\r\n        a {\r\n            display: block;\r\n            padding: 20px;\r\n        }\r\n    }\r\n}",
+		"p {\r\n    color: blue;\r\n    background-color: gray;\r\n}",
+		"a {\r\n    display: block;\r\n    width: 200px;\r\n    height: 100px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,IAAI;CACzB;;;ACHD,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;;AFCD,AAAA,MAAM,CAAA;EACF,UAAU,EAHN,IAAI;EAIR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAOf;;;AAVD,AAII,MAJE,CAIF,CAAC,CAAC;EACE,KAAK,EAAE,IACX;CAAC;;;AANL,AAOI,MAPE,AAOD,MAAM,CAAC;EACJ,UAAU,EAAE,GAAG;CAClB;;;AAGL,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;CASrB;;;AAVD,AAEI,EAFF,CAEE,EAAE,CAAC;EACC,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,IAAI;CAKnB;;;AATL,AAKQ,EALN,CAEE,EAAE,CAGE,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,IAAI;CAChB"
+}

@@ -1,0 +1,28 @@
+@import "colors";
+@import "buttons";
+
+$preto: #999;
+
+.teste{ 
+    background: $preto;
+    height: 200px;
+    width: 200px;
+    a {
+        color: pink
+    }
+    &:hover {
+        background: red;
+    }
+}
+
+ul {
+    text-align: center;
+    li {
+        display: inline-block;
+        list-style: none;
+        a {
+            display: block;
+            padding: 20px;
+        }
+    }
+}
