@@ -3,10 +3,28 @@
 
 $preto: #999;
 
+@mixin title-large {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 1;
+}
+
+@mixin border-box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@mixin quadrado-background($color, $valor: 200px) {
+    background: $color;
+    height: $valor;
+    width: $valor;
+}
+
 .teste{ 
-    background: $preto;
-    height: 200px;
-    width: 200px;
+    @include quadrado-background(#231, 300px);
+    @include title-large;
     a {
         color: pink
     }

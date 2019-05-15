@@ -1,48 +1,42 @@
-/* line 1, ../../Documents/pessoal/curso-sass/scss/_colors.scss */
 p {
   color: blue;
   background-color: gray;
 }
 
-/* line 1, ../../Documents/pessoal/curso-sass/scss/_buttons.scss */
 a {
   display: block;
   width: 200px;
   height: 100px;
 }
 
-/* line 6, ../../Documents/pessoal/curso-sass/scss/style.scss */
 .teste {
-  background: #999;
-  height: 200px;
-  width: 200px;
+  background: #231;
+  height: 300px;
+  width: 300px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 1;
 }
 
-/* line 10, ../../Documents/pessoal/curso-sass/scss/style.scss */
 .teste a {
   color: pink;
 }
 
-/* line 13, ../../Documents/pessoal/curso-sass/scss/style.scss */
 .teste:hover {
   background: red;
 }
 
-/* line 18, ../../Documents/pessoal/curso-sass/scss/style.scss */
 ul {
   text-align: center;
 }
 
-/* line 20, ../../Documents/pessoal/curso-sass/scss/style.scss */
 ul li {
   display: inline-block;
   list-style: none;
 }
 
-/* line 23, ../../Documents/pessoal/curso-sass/scss/style.scss */
 ul li a {
   display: block;
   padding: 20px;
 }
-
-/*# sourceMappingURL=style.css.map */
