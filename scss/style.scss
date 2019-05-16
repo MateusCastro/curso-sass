@@ -22,11 +22,38 @@ $preto: #999;
     width: $valor;
 }
 
+@mixin mobile {
+    @media (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin type-1($size) {
+    font-family: monospace;
+    @if $size == normal {
+        font-size: 1em;
+        font-weight: normal;
+    }@else if $size == large {
+        font-size: 1.25em;
+        font-weight: normal;
+    }@else if $size == x-large {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+.parag {
+    @include type-1(x-large);
+}
+
 .teste{ 
     @include quadrado-background(#231, 300px);
+    @include mobile {
+        @include quadrado-background(#976, 300px);
+    }
     @include title-large;
     a {
-        color: pink
+        color: pink;
     }
     &:hover {
         background: red;
@@ -44,3 +71,9 @@ ul {
         }
     }
 }
+
+.operadores {
+    width: 100px - 20 * 2;
+    height: 200px / 100
+}
+

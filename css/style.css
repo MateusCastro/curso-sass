@@ -9,6 +9,12 @@ a {
   height: 100px;
 }
 
+.parag {
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .teste {
   background: #231;
   height: 300px;
@@ -17,6 +23,14 @@ a {
   font-weight: bold;
   font-family: monospace;
   line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .teste {
+    background: #976;
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .teste a {
@@ -39,4 +53,9 @@ ul li {
 ul li a {
   display: block;
   padding: 20px;
+}
+
+.operadores {
+  width: 60px;
+  height: 200px / 100;
 }
